@@ -76,7 +76,7 @@ static void didFinishLaunching(CFNotificationCenterRef center, void *observer, C
     alert.showAnimationType = SCLAlertViewShowAnimationSlideInFromCenter;   
     
     [alert showSuccess: nil
-            subTitle:NSSENCRYPT("читы - Mod Menu \n\nThis Mod Menu has been made by YOURNAME, do not share this without proper credits and my permission. \n\nEnjoy!") 
+            subTitle:NSSENCRYPT("HIMGT MODS \n\nThis Mod Menu has been made by HimGT, do not skid this. \n\nEnjoy!") 
               closeButtonTitle:nil
                 duration:99999999.0f];
   });
@@ -85,4 +85,5 @@ static void didFinishLaunching(CFNotificationCenterRef center, void *observer, C
 
 %ctor {
   CFNotificationCenterAddObserver(CFNotificationCenterGetLocalCenter(), NULL, &didFinishLaunching, (CFStringRef)UIApplicationDidFinishLaunchingNotification, NULL, CFNotificationSuspensionBehaviorDeliverImmediately);
+
 }
