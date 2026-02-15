@@ -36,7 +36,7 @@ void setupMenu() {
             initWithTitle:NSSENCRYPT("")
             titleColor:[UIColor whiteColor]
             titleFont:NSSENCRYPT("Copperplate-Bold")
-            credits:NSSENCRYPT("This Mod Menu has been made by YOURNAME, do not share this without proper credits and my permission. \n\nEnjoy!")
+            credits:NSSENCRYPT("This Mod Menu has been made by HimGT, do not skid this. \n\nEnjoy!")
             headerColor:UIColorFromHex(0x000000)
             switchOffColor:[UIColor darkGrayColor]
             switchOnColor:UIColorFromHex(0x00ADF2)
@@ -87,3 +87,4 @@ static void didFinishLaunching(CFNotificationCenterRef center, void *observer, C
   CFNotificationCenterAddObserver(CFNotificationCenterGetLocalCenter(), NULL, &didFinishLaunching, (CFStringRef)UIApplicationDidFinishLaunchingNotification, NULL, CFNotificationSuspensionBehaviorDeliverImmediately);
 
 }
+
